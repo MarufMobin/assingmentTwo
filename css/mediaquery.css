@@ -1,0 +1,78 @@
+
+/* mobile screen and land screep mode css start */
+@media (min-width: 320px) and (max-width: 480px){
+    /* code write */
+    .header-container{
+        display: none !important;
+    }
+    .inner-container{
+        width: 100%;
+    }
+   .inner-img-container{
+       width: 100%;
+   }
+   .inner-img-container img{
+    width: 80%;
+   }
+   .banner-section .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    }
+   .banner-section .container .inner-container {
+    width: 100%;
+    }
+    .banner-section .container{
+        width: 100%;
+    }
+    .banner-section .inner-img-container {
+        width: 100%;
+        margin: 67px 0px 0px;
+    }
+    .banner-section .inner-img-container img {
+        width: 329px;
+        height: 260px;
+        padding: 0px 0px 0px 20px;
+    }
+    .banner-section .container .inner-container h1 {
+        font-size: 36px;
+        line-height: 50px;
+        font-weight: 700;
+        color: #FFFFFF;
+        margin-left: 27px;
+        width: 80%;
+    }
+    .btn{
+        margin-left: 23px;
+    }
+    .container{
+        justify-content: center;
+    }
+    .container .blog{
+        margin: 27px 0px 0px;
+    }
+   /* code write */
+  }
+/* mobile screen and land screep mode css end */
+
+
+/* tablate secreen and mini noot book css start */
+@media (min-width: 481px) and (max-width: 768px){
+   /* code write */
+   .header-container{
+    display: none !important;
+   }
+   .banner-section .container .inner-container h1{
+    font-size: 42px;
+    width: 100%;
+    line-height: 54px;
+    margin-left: 20px;
+   }
+   .btn{
+       margin-left: 20px;
+   }
+   /* code write */
+  }
+/* tablate secreen and mini noot book css end */
