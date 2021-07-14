@@ -252,6 +252,23 @@
 
 /* latest-video section code end here */
 
+/* goals-club-section start */
+    .goals-club-section{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 40px 0px;
+        background: url("../images/bottom-wrapper-bg.jpg");
+        background-size: cover;
+    }
+    .container{
+        width: 1140px;
+    }
+    .inner-container{
+
+    }
+/* goals-club-section end*/
+
 /* footer-section code start here */
     .footer-section{
         width: 100%;

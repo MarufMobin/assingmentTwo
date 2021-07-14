@@ -53,6 +53,42 @@
     .container .blog{
         margin: 27px 0px 0px;
     }
+    .latest-video{
+        display: flex;
+        justify-content: center;
+        padding: 80px 0px;
+        flex-direction: column;
+    }
+    .letest-innerContainer {
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .letest-video-wrapper {
+        width: 100%;
+        z-index: 2;
+        color: #fff;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .letest-video-container img {
+        width: 100%;
+    }
+    .one {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .one img{
+        width: 100%;
+    }
+    .two {
+        width: 86%;
+    }
    /* code write */
   }
 /* mobile screen and land screep mode css end */
@@ -97,6 +133,42 @@
     width: 285px;
     height: 225px;
    }
+   .latest-video{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    flex-direction: column;
+    }
+    .letest-innerContainer {
+        width: 100%;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .letest-video-wrapper {
+        width: 100%;
+        z-index: 2;
+        color: #fff;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .letest-video-container img {
+        width: 100%;
+    }
+    .one {
+        width: 90%;
+        margin-top: 30px;
+    }
+    .one img{
+        width: 100%;
+    }
+    .two {
+        width: 86%;
+    }
    /* code write */
   }
 /* tablate secreen and mini noot book css end */
