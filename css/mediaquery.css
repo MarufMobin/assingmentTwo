@@ -73,6 +73,30 @@
    .btn{
        margin-left: 20px;
    }
+   .banner-section .container .inner-container h1 {
+    font-size: 36px;
+    width: 90%;
+    line-height: 46px;
+   }
+   .banner-section .inner-img-container img {
+    width: 330px;
+    height: 260px;
+   }
+   .container .blog {
+    width: 260px;
+    margin: 27px 10px 0px;
+   }
+   .container img {
+    width: 260px;
+    height: 220px;
+   }
+   .banner-section .inner-img-container{
+       overflow: hidden;
+   }
+   .banner-section .inner-img-container img {
+    width: 285px;
+    height: 225px;
+   }
    /* code write */
   }
 /* tablate secreen and mini noot book css end */
