@@ -261,11 +261,94 @@
         background: url("../images/bottom-wrapper-bg.jpg");
         background-size: cover;
     }
-    .container{
+    .goals-club-section-container{
         width: 1140px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
-    .inner-container{
+    .player-inner-container{
+        width: 100%;
+        display: flex;
+    }
+    .player{
 
+text-align: center;
+
+}
+    .player .choto {
+        width: 75%;
+        padding-top: 120px;
+    }
+    .player .mini{
+       width: 61%;
+       padding-top: 179px;
+       display: block;
+    }
+    .player h4{
+        font-size: 42px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 46px;
+        margin: 20px 0px;
+    }
+    .player img{
+       width: 300px;
+    }
+    
+    .player-contant{
+        margin: 104px  0px 0px 0px;
+        padding: 10px;
+        border-top: 2px solid #fff;
+        border-left: 2px solid #fff;
+        border-right: 2px solid #fff;
+    }
+    .name{
+        font-size: 32px;
+        color: #fff;
+        margin: 0px 0px 20px;
+    }
+    .conty{
+        font-size: 32px;
+        color: #fff;
+        margin: 0px 0px 20px;
+    }
+    .star{
+        font-size: 18px;
+        color: #fff;
+        margin: 0px 0px 20px;
+    }
+    .fa-star{
+        margin-right: 5px;
+    }
+    .tite{
+        font-size: 21px;
+        color: #fff;
+        margin: 0px 0px 50px;
+    }
+    .ply-btn .fa-arrow-right{
+        margin-left: 8px;
+    }
+
+    .ply-btn{
+        padding: 10px 7px;
+        background-color: #E02C6D;
+        border: 2px solid#E02C6D;
+        transition: 1s;
+        cursor: pointer;
+        display: inline;
+    }
+    a{
+        color: #fff;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .ply-btn:hover{
+        background-color: transparent;
+        color:#E02C6D;
+        border: 2px solid #E02C6D;
+        font-weight: 500;
     }
 /* goals-club-section end*/
 
